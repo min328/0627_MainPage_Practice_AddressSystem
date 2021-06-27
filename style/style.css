@@ -1,0 +1,138 @@
+@charset "UTF-8";
+@import url(default.css);
+
+/* guide line */
+/*div#headerFrame {border: 1px solid #000;}*/
+/*header#header {border: 1px solid #000;}*/
+
+main#main {border: 1px solid #f00;}
+
+div#searchEngine {border: 1px solid #00f;}
+div#shortcutBar {border: 1px solid #f80;}
+div#learningContents {border: 1px solid #f80;}
+
+div#footerFrame {border: 1px solid #000;}
+footer#footer {border: 1px solid #000;}
+/* guide line */
+
+
+/* body */
+body {background-color: #fff;}
+/* body */
+
+/* div#headerFrame */
+div#headerFrame {
+    width: 100%;
+}
+    /* header#header */
+    #headerFrame header#header {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+        /* nav#headerLNB */
+        nav#headerLNB {
+            margin: 25px 0;
+        }
+        #headerLNB > ul {
+            justify-content: flex-end;
+        }
+        #headerLNB > ul li a{
+            font-size: 15px;
+            color: #42619a;
+        }
+        /* nav#headerLNB */
+
+        /* nav#headerGNB */
+        nav#headerGNB {
+/*            border: 1px solid #000;*/
+            padding: 25px;
+        }
+        #headerGNB > ul {
+            height: 40px;
+            justify-content: space-between;
+        }
+        #headerGNB > ul li{
+            color: #000;
+            line-height: 60px;
+            font-size: 20px;
+        }
+        /* nav#headerGNB */
+    /* header#header */
+/* div#headerFrame */
+
+
+
+/* main#main */
+
+main#main {
+}
+
+    /* div#searchEngine */
+    div#searchEngine {
+        width: 100%;
+        height: 710px;
+        margin: 0 auto;
+        background: url(../images/visua_a.jpg) no-repeat 50% 50%;
+
+    }
+    /* div#searchEngine */
+
+    /* div#shortcutBar */
+    div#shortcutBar {
+        width: 100%;
+        height: 270px;
+        background-color: #2b344c;
+        opacity: .9;
+    }
+    /* div#shortcutBar */
+
+    /* div#contentsFrame */
+    div#contentsFrame {
+        width: 100%;
+        height: 400px;
+        background-color: #f2f2f2;
+    }
+    /* div#contentsFrame */
+
+    /* div#learningContents */
+    div#learningContents {
+        width: 1200px;
+        height: 400px;
+        margin: 0 auto;
+        border: 1px solid #000;
+    }
+    /* div#learningContents */
+/* main#main */
+
+
+
+/* aside#aside */
+aside#aside {
+    width: 100%;
+    height: 425px;
+}
+    /* div#asideContents */
+    div#asideContents {
+        width: 1200px;
+        height: 285px;
+        border: 1px solid #0f0;
+        margin: 0 auto;
+
+    }
+    /* div#asideContents */
+/* aside#aside */
+
+
+
+/* div#footerFrame */
+div#footerFrame {
+    width: 100%;
+}
+    /* footer#footer */
+#footerFrame footer#footer {
+    width: 1200px;
+    margin: 0 auto;
+}
+    /* footer#footer */
+/* div#footerFrame */
